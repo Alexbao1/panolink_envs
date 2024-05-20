@@ -1,0 +1,13 @@
+prefix=/root/anaconda3/envs/monlink
+exec_prefix=/root/anaconda3/envs/monlink
+libdir=/root/anaconda3/envs/monlink/lib
+sharedlibdir=/root/anaconda3/envs/monlink/lib
+includedir=/root/anaconda3/envs/monlink/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
